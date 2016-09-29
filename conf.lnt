@@ -1,0 +1,14 @@
+//Created by Benjamin van Vuuren 2016
+//email: bvv@lxt.nl
+
+/* ---- FLEXELINT CONFIG FILES -----------*/
+//misra c 2012 (flexelint does not support all misra guidelines)
+-iau-misra3.lnt
+//output format
+-ienv-html.lnt
+
+/* ---- HEADER FILE SETTINGS ---- */
+//no header files are treated as library header files
+-libclass()
+//header file include directories
+-i./includes/
